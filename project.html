@@ -2,11 +2,16 @@
 <html>
 <head>
 
+	<meta charset="utf-8">
 	<title>Create Your Own Adventure</title>
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css">
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 	<link rel="stylesheet" href="css/project.css">
 
 </head>
 <body>
+
+<section id="page1" class="all-secs">
 
 	<h1>You're Going on a Vacation!</h1>
 	<p>That's right. You have been given an all-expenses-paid trip to the location of your choosing. Lucky you! Before you decide where you want to go, you need to pack a bag! Choose 3 items from the inventory that you want to bring with you on your trip, then hit 'Go'!</p>
@@ -33,7 +38,33 @@
 	</ul>
 </div>
 
-<button class="submit" id="go" formaction="<!--WEEK 2-->">Go</button>
+<button class="submit" id="go" formaction="<file:///Users/abbydrueke/Documents/GitHub%20Projects/project/project2.html>">Go</button>
+
+</section>
+<section id="page2" class="all-secs">
+
+<h1>Pick Your Destination!</h1>
+	<div id="map"></div>
+	<script type='text/javascript' src='js/project.js'></script>
+	
+	<div class="radio">
+			<p><b>Which city would you like to visit?</b></p>
+				<label><input type="radio" name="city" id="London" 
+					value="London">London, England</label><br>
+				<label><input type="radio" name="city" id="Paris"
+					value="Paris">Paris, France</label><br>
+				<label><input type="radio" name="city" id="Florence"
+					value="Florence">Florence, Italy</label><br>
+				<label><input type="radio" name="city" id="Amsterdam"
+					value="Amsterdam">Amsterdam, The Netherlands</label><br>
+				<label><input type="radio" name="city" id="Budapest"
+					value="Budapest">Budapest, Hungary</label><br>
+				<label><input type="radio" name="city" id="Vienna"
+					value="Vienna">Vienna, Austria</label><br>
+			</div>
+			
+	<button class="submit" id="go" formaction="//WEEK 3 URL//>">Go</button>
+</section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"> </script>
 <script type='text/javascript' src='js/project.js'></script>

@@ -1,16 +1,16 @@
-body {
-	background-color: #F5ECD3;
-}
-
 h1 {
 	font-family: Helvetica, sans-serif;
 	text-align: center;
 }
 
+h3 {
+	font-family: Helvetica, sans-serif;
+}
+
 p {
-	padding-left: 200px;
-	padding-right: 200px;
-	text-align: center;
+	padding-left: 300px;
+	padding-right: 300px;
+	text-align: justify;
 }
 
 .list {
@@ -58,4 +58,34 @@ a:visited {
 
 a:hover {
 	color: #D25265;
+}
+
+#map { 
+	height: 500px; 
+	width: 1000px;
+	margin: auto;
+}
+
+.radio {
+	padding-left: 110px;
+	padding-bottom: 10px;
+}
+
+.submit {
+	margin-left: 110px;
+	margin-bottom: 50px;
+}
+
+.all-secs {
+	margin: 0;
+	padding: 40px;
+	cursor: pointer;
+}
+
+#page1 {
+	background-image: url("../images/dimension.png");
+}
+
+#page2 {
+	background-image: url("../images/tree_bark.png");
 }
